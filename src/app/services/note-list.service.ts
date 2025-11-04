@@ -11,7 +11,7 @@ export class NoteListService {
   trashNotes: Note[] = [];
 
   // TODO: Trage hier die vollständige URL deiner API ein
-  apiEndpoint = '';
+  apiEndpoint = 'http://127.0.0.1:8000/notes/';
 
   constructor(private http: HttpClient) {
     this.getNoteList();
